@@ -14,7 +14,7 @@ services:
   pgadmin-compose:
     image: dpage/pgadmin4
     environment:
-      PGADMIN_DEFAULT_EMAIL: "pedro@dev.com.br"
+      PGADMIN_DEFAULT_EMAIL: "seu-email@dev.com"
       PGADMIN_DEFAULT_PASSWORD: "123456"
     ports:
       - "54321:80"
